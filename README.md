@@ -7,7 +7,7 @@ Collection of useful components for searching in your Parse database, with `reac
 - [Parse React Search](#parse-react-search)
     - [Install](#install)
   - [Components](#components)
-    - [SearchIput](#searchiput)
+    - [SearchInput](#searchinput)
   - [Collaborate](#collaborate)
   - [Features](#features)
   - [Folder structure](#folder-structure)
@@ -27,7 +27,7 @@ Or with Yarn:
 
 ## Components
 
-### SearchIput
+### SearchInput
 
 ```jsx
 import SearchInput from '../src/SearchInput';
