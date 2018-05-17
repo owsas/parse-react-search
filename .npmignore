@@ -1,0 +1,15 @@
+__mocks__/
+.vscode/
+node_modules/
+build/app.js
+coverage/
+src/
+test/
+.flowconfig
+jestConfig.js
+.eslintrc.js
+jestConfig.js
+webpack.config.js
+.DS_Store
+repo/
+demo/

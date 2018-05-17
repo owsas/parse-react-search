@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#renderItem should match the snapshot 1`] = `
+<div
+  key="searchInput-item-123"
+  style={
+    Object {
+      "background": "white",
+      "padding": 5,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <div>
+      <img
+        alt=""
+        src="testUrl"
+        style={
+          Object {
+            "height": 40,
+            "width": 40,
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "flex": 1,
+          "padding": 5,
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        <b>
+          Test
+        </b>
+         
+        <FaCheckCircleO />
+      </p>
+      <p
+        style={
+          Object {
+            "margin": 0,
+          }
+        }
+      >
+        <img
+          alt=""
+          src="https://s3-us-west-2.amazonaws.com/otherwise-files/flags/co.png"
+          style={
+            Object {
+              "marginRight": 5,
+              "width": 16,
+            }
+          }
+        />
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should match the snapshot 1`] = `
+<Autocomplete
+  autoHighlight={true}
+  getItemValue={[Function]}
+  inputProps={Object {}}
+  isItemSelectable={[Function]}
+  items={Array []}
+  menuStyle={
+    Object {
+      "background": "rgba(255, 255, 255, 0.9)",
+      "borderRadius": "3px",
+      "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+      "fontSize": "90%",
+      "maxHeight": "50%",
+      "overflow": "auto",
+      "padding": "2px 0",
+      "position": "fixed",
+    }
+  }
+  onChange={[Function]}
+  onMenuVisibilityChange={[Function]}
+  onSelect={[Function]}
+  renderInput={[Function]}
+  renderItem={[Function]}
+  renderMenu={[Function]}
+  selectOnBlur={false}
+  value=""
+  wrapperProps={Object {}}
+  wrapperStyle={
+    Object {
+      "position": "relative",
+    }
+  }
+/>
+`;
